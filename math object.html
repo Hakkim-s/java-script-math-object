@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Math object</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script >
+     document.write(Math.PI); 
+     document.write("<br/>");
+     document.write(Math.E); 
+     document.write("<br/>");
+     document.write(Math.sign(-33)); 
+     document.write("<br/>");
+     document.write(Math.abs(24)); 
+     document.write("<br/>");
+     document.write(Math.sqrt(9));	  
+     document.write("<br/>");
+     document.write(Math.pow(8,4));	  
+     document.write("<br/>");
+     document.write(Math.);	  
+     document.write("<br/>");
+     document.write(Math.);	  
+     document.write("<br/>");
+     document.write(Math.);	  
+     document.write("<br/>");
+     document.write(Math.max(8,2,99,22));
+
+document.write(Math.min(8,2,99,22,-22));
+
+
+
+document.write(Math.round(2.9));
+
+document.write(Math.ceil(2.9));
+
+document.write(Math.floor(2.5));
+
+document.write(Math.trunc(39.44));
+
+
+document.write(Math.cos(0)); // x = 1
+
+document.write(Math.sin(0)); // y = 0
+
+document.write(Math.cos(Math.PI)); // x = -1
+
+document.write(Math.sin(90 * Math.PI/180)); // y = 1
+
+
+// atan2 returns angle from -180 to 180
+document.write(Math.atan2(0,-1) * 180 / Math.PI); // 180
+
+// getting angle from 0 to 360
+document.write( ((Math.atan2(-1,0) * 180 / Math.PI) + 360)  % 360); // 270
+
+
+// random returns random number between 0 and less than 1 
+document.write(Math.random());
+
+// getting radom value between 1 and 10
+document.write(Math.trunc(Math.random() * 10 + 1));
+
+
+	</script>
+</body>
+</html>
